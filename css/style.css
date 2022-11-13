@@ -11,23 +11,23 @@ main {
   background-color: hsl(218, 23%, 16%);
 }
 .container {
-  height: 22rem;
+  height: 18rem;
   width: 32rem;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-evenly;
   background-color: hsl(217, 19%, 24%);
   border-radius: 15px;
 }
 button {
-  position: absolute;
+  position: relative;
   height: 3.5rem;
   width: 3.5rem;
   border-radius: 50%;
   border: none;
   background-color: hsl(150, 100%, 66%);
-  bottom: 16%;
+  bottom: -40px;
   cursor: pointer;
 }
 button:hover {
@@ -47,6 +47,7 @@ picture {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 30px 0;
 }
 .first {
   text-align: center;
@@ -68,9 +69,9 @@ picture {
 @media (max-width: 450px) {
   .container {
     width: 90%;
-    height: 28rem;
+    height: 24rem;
   }
   button {
-    bottom: 12%;
+    bottom: -40px;
   }
 }
